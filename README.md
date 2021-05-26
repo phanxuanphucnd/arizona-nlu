@@ -1,4 +1,3 @@
 # Arizona
 
-
-A l Jointly Models Intent classification and Named Entities Recognition
+A Jointly Models Intent classification and Named Entities Recognition
