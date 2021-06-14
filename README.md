@@ -11,7 +11,7 @@
 
 - Nature language understanding (NLU) is a subtopic of natural-language processing in artificial intelligence that deals with machine reading comprehension. Natural-language understanding is considered an AI-hard problem. NLU tasks including two main components: Intent Classification (IC) and Named Entities Recognition (NER).
 
-- Arizona-nlu provide a library for jointly IC and NER tasks, including 2 main model architectures: Onenet-RNN based on Recurrent neural network and Onenet-Transformer based on transformers architecture.
+- Arizona-nlu provide a library for jointly IC and NER tasksbased on transformers architecture.
 
 # <a name='how_to_use'></a> How to use
 
@@ -23,27 +23,9 @@
 
 ## <a name='data_structure'></a> Data structure
 
-```
-data
-    gsc_v2.1
-        train
-            active
-                right_1.wav
-                right_2.wav
-                ...
-            
-            non_active
-                on_1.wav
-                on_2.wav
-                ...
-
-            ...
-
-        valid
-
-        test
-
-```
+text | intent | tags 
+---- | ------ | ---- 
+hello you, i need a coffe | demand | O O O O O B-food
 
 ## <a name='usage'></a> Example usage
 
@@ -68,9 +50,7 @@ data
 
 # <a name='reference'></a> Reference
 
-1. Young-Bum Kim, Sungjin Lee and Karl Stratos: "[OneNet: Joint Domain, Intent, Slot Prediction for Spoken Language Understanding](https://arxiv.org/abs/1801.05149)", in arXiv:1801.05149, 2018.
-
-2. Qian Chen, Zhu Zhuo and Wen Wang: “[BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/abs/1902.10909)”, in arXiv:1902.10909, 2019.
+1. Qian Chen, Zhu Zhuo and Wen Wang: “[BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/abs/1902.10909)”, in arXiv:1902.10909, 2019.
 
 
 # License
