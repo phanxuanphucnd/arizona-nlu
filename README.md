@@ -80,6 +80,6 @@ hello you, i need a coffe | demand | O O O O O B-food
   
 # Author
 
-Arizona-spotting was developed by Phuc Phan © Copyright 2021.
+Arizona-nlu was developed by Phuc Phan © Copyright 2021.
 
 For any questions or comments, please contact the following email: phanxuanphucnd@gmail.com
