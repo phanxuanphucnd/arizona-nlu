@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import os
+import torch
+import random
+import numpy as np
 import urllib.request
 
 from typing import Any
@@ -8,6 +11,13 @@ from .progressbar import MyProgressBar
 
 def str2bool(value):
     return str(value).lower() in ('yes', 'true', 't', '1')
+
+def set_seed(seed):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
 
 def ifnone(a: Any, b: Any) -> Any:
     """a if a is not None, otherwise b."""
