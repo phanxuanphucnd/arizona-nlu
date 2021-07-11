@@ -11,7 +11,7 @@
 
 - Nature language understanding (NLU) is a subtopic of natural-language processing in artificial intelligence that deals with machine reading comprehension. Natural-language understanding is considered an AI-hard problem. NLU tasks including two main components: Intent Classification (IC) and Named Entities Recognition (NER).
 
-- Arizona-nlu provide a library for jointly IC and NER tasksbased on transformers architecture.
+- `arizona nlu` provide a library for jointly IC and NER tasks based on Transformers architecture.
 
 # <a name='how_to_use'></a> How to use
 
@@ -50,8 +50,7 @@ hello you, i need a coffe | demand | O O O O O B-food
 
 # <a name='reference'></a> Reference
 
-1. Qian Chen, Zhu Zhuo and Wen Wang: “[BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/abs/1902.10909)”, in arXiv:1902.10909, 2019.
-
+<a name='paper_1'></a> [1]. Qian Chen, Zhu Zhuo and Wen Wang: “[BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/abs/1902.10909)”, in arXiv:1902.10909, 2019.
 
 # License
 
@@ -80,6 +79,10 @@ hello you, i need a coffe | demand | O O O O O B-food
   
 # Author
 
-Arizona-nlu was developed by Phuc Phan © Copyright 2021.
+`arizona.nlu` was developed by Phuc Phan © Copyright 2021.
 
 For any questions or comments, please contact the following email: phanxuanphucnd@gmail.com
+
+# Acknowledgement
+
+Our code is based on the unofficial implementation of the [JointBERT+CRF github](https://github.com/monologg/JointBERT) and [paper](https://arxiv.org/abs/1902.10909).

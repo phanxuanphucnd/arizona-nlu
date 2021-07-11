@@ -30,9 +30,9 @@ except:
 VERSION = os.getenv('PACKAGE_VERSION', 'v0.0.1')[1:]
 
 setup(
-    name='arizona_nlu',
+    name='arizona',
     version=VERSION,
-    description='Arizona-nlu is a library for jointly intent classification and named entities recognition tasks.',
+    description='Arizona nlu is a library for jointly intent classification and named entities recognition tasks.',
     long_description=open("README.md", "r", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     url='',
@@ -44,12 +44,12 @@ setup(
         'Programming Language :: Python :: 3.x',
     ],
     install_requires=reqs,
-    keywords='arizona_nlu',
+    keywords='arizona',
     python_requires='>=3.6',
-    py_modules=['arizona_nlu'],
+    py_modules=['arizona'],
     # entry_points={
     #     'console_scripts': [
-    #         'arizona_nlu = arizona_nlu.run_cli:entry_point'
+    #         'arizona = arizona.run_cli:entry_point'
     #     ]
     # },
 )
