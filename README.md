@@ -2,7 +2,7 @@
 [![PyPI - License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/phanxuanphucnd/arizona-nlu/blob/main/LICENSE)
 [![Open In Jupyter notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/phanxuanphucnd/arizona-nlu/tree/main/tests)
 
-<img src="docs/imgs/arizona_nlu.gif" width="35%" height="35%" align="right" />
+<img src="docs/imgs/arizona_nlu.gif" width="45%" height="45%" align="right" />
 
 ## Table of contents
 
