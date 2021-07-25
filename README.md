@@ -1,3 +1,9 @@
+[![PyPI - Python](https://img.shields.io/badge/python-3.6%20|%203.7%20|%203.8-blue.svg)](https://github.com/phanxuanphucnd/arizona-nlu)
+[![PyPI - License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/phanxuanphucnd/arizona-nlu/blob/main/LICENSE)
+[![Open In Jupyter notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/phanxuanphucnd/arizona-nlu/tree/main/tests)
+
+<img src="docs/imgs/arizona_nlu.gif" width="35%" height="35%" align="right" />
+
 ## Table of contents
 
 1. [Instroduction](#introduction)
